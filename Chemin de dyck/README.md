@@ -2,9 +2,7 @@
 
 ## Description
 
-Ce projet est un travail pratique réalisé dans le cadre d'un cours nommé "INF3135" à l'université du Quebec A Montreal. L'enseignant responsable du cours est "Seth APLOGAN". Le projet porte sur la programmation en langage C et l'utilisation de Git pour le contrôle de versions.
-
-Le travail pratique consiste à écrire un programme en langage C appelé "motdedyck.c" qui prend en entrée des mots de Dyck et dessine le chemin correspondant. Le programme lit l'entrée sur l'entrée standard (stdin) et affiche le résultat sur la sortie standard (stdout). L'objectif principal du projet est de familiariser les étudiants avec le langage C, Git, la compilation à l'aide d'un Makefile et la décomposition d'un programme en petites fonctions.
+Ce travail pratique consiste à écrire un programme en langage C appelé "motdedyck.c" qui prend en entrée des mots de Dyck et dessine le chemin correspondant. Le programme lit l'entrée sur l'entrée standard (stdin) et affiche le résultat sur la sortie standard (stdout). L'objectif principal du projet est de familiariser les étudiants avec le langage C, Git, la compilation à l'aide d'un Makefile et la décomposition d'un programme en petites fonctions.
 
 Un mot de Dyck est un mot sur un alphabet binaire qui satisfait deux propriétés : il y a autant de lettres 'a' que de lettres 'b' et pour tout préfixe du mot, il y a au moins autant de lettres 'a' que de lettres 'b'. Le programme doit valider si le mot donné en entrée est un mot de Dyck sur l'alphabet donné. Si ce n'est pas le cas, il affiche un message d'erreur approprié. Si le mot est un mot de Dyck, le programme affiche un dessin ASCII du chemin de Dyck correspondant au mot.
 
@@ -38,6 +36,8 @@ Les dependances du fichiers sont
 * GCC
 * Bats
 * Pandoc
+
+
 Vous devez installez chacune d'elles pour faire fonctionner le dossier sans aucune difficultes
 ## Références
 
